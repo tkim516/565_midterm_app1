@@ -24,7 +24,7 @@ X = default_df.drop(columns='fetal_health')
 y = default_df['fetal_health']
 default_df.pop('fetal_health')
 
-st.title('JKSKFetal Health Classification Using Machine Learning')
+st.title('Fetal Health Classification Using Machine Learning')
 st.image('fetal_health_image.gif', use_column_width=True, caption='Predict fetal health classification')
 
 st.header('Sample Data')
